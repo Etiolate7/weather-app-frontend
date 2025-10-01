@@ -1,22 +1,26 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+.bgImage {
+  background-image: url('../public/sky.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .title {
-  line-height: 1.15;
-  font-size: 4rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-color: 'grey';
+  background-color: rgb(241, 246, 255);
+  height: 10%;
+  padding: 25px;
+  margin: 0;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.middle {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
-}
