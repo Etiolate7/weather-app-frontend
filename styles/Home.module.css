@@ -63,3 +63,23 @@
   border-radius: 3px;
   text-align: center;
 }
+
+.cityName {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  color: white;
+  text-align: center;
+}
+
+.tempMin {
+  color: white;
+  text-align: center;
+}
+
+.tempMax {
+  color: white;
+  text-align: center;
+}
